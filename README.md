@@ -1,5 +1,5 @@
 # django-domain-language
-A django app that allows to swich the language based on the domain.
+A django app that allows to swich the language based on the domain the django server is accessed with.
 
 You might be runing a site called `mysite.com` and want to run the german version of the site under `meineseite.de`
 this app helps you doing this. You can configure what domain should be served in what language. You can also use it to
