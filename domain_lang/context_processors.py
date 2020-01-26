@@ -18,5 +18,5 @@ from domain_lang.models import DomainLanguageMapping
 def domain_language(request):
 
     return {
-        'language_mappings': DomainLanguageMapping.all()
+        'language_mappings': DomainLanguageMapping.objects.all()
     }
